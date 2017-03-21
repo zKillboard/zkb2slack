@@ -6,7 +6,7 @@ To install:
 
     git clone https://github.com/zKillboard/zkb2slack.git
     
-To execute:
+To execute add this line to your cron:
 
 ````    * * * * * queueID="yourQueueID" slackHookURL="https://hooks.slack.com/services/your/hook/here" channel="#killmails" name="The Name Here" php /location/of/clone/zkb2slack.php````
 
